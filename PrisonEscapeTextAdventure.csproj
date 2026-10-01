@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!-- This project builds a console executable. -->
+    <OutputType>Exe</OutputType>
+    <!-- The project targets .NET 10 to match the installed SDK. -->
+    <TargetFramework>net10.0</TargetFramework>
+    <!-- Enable common System namespaces automatically. -->
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Enable nullable-reference warnings. -->
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+</Project>
